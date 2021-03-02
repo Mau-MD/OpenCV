@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion
+CMAKE_SOURCE_DIR = /Users/maudieguez/Documents/Programming/opencv/opencvTutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/cmake-build-debug/CMakeFiles /Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,140 @@ opencv/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/build
 .PHONY : opencv/fast
 
-main.o: main.cpp.o
+chapter1.o: chapter1.cpp.o
 
-.PHONY : main.o
+.PHONY : chapter1.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/main.cpp.o
-.PHONY : main.cpp.o
+chapter1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chapter1.cpp.o
+.PHONY : chapter1.cpp.o
 
-main.i: main.cpp.i
+chapter1.i: chapter1.cpp.i
 
-.PHONY : main.i
+.PHONY : chapter1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/main.cpp.i
-.PHONY : main.cpp.i
+chapter1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chapter1.cpp.i
+.PHONY : chapter1.cpp.i
 
-main.s: main.cpp.s
+chapter1.s: chapter1.cpp.s
 
-.PHONY : main.s
+.PHONY : chapter1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/main.cpp.s
-.PHONY : main.cpp.s
+chapter1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chapter1.cpp.s
+.PHONY : chapter1.cpp.s
+
+chapter2.o: chapter2.cpp.o
+
+.PHONY : chapter2.o
+
+# target to build an object file
+chapter2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chapter2.cpp.o
+.PHONY : chapter2.cpp.o
+
+chapter2.i: chapter2.cpp.i
+
+.PHONY : chapter2.i
+
+# target to preprocess a source file
+chapter2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chapter2.cpp.i
+.PHONY : chapter2.cpp.i
+
+chapter2.s: chapter2.cpp.s
+
+.PHONY : chapter2.s
+
+# target to generate assembly for a file
+chapter2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chapter2.cpp.s
+.PHONY : chapter2.cpp.s
+
+chapter3.o: chapter3.cpp.o
+
+.PHONY : chapter3.o
+
+# target to build an object file
+chapter3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chapter3.cpp.o
+.PHONY : chapter3.cpp.o
+
+chapter3.i: chapter3.cpp.i
+
+.PHONY : chapter3.i
+
+# target to preprocess a source file
+chapter3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chapter3.cpp.i
+.PHONY : chapter3.cpp.i
+
+chapter3.s: chapter3.cpp.s
+
+.PHONY : chapter3.s
+
+# target to generate assembly for a file
+chapter3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chapter3.cpp.s
+.PHONY : chapter3.cpp.s
+
+chapter4.o: chapter4.cpp.o
+
+.PHONY : chapter4.o
+
+# target to build an object file
+chapter4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chapter4.cpp.o
+.PHONY : chapter4.cpp.o
+
+chapter4.i: chapter4.cpp.i
+
+.PHONY : chapter4.i
+
+# target to preprocess a source file
+chapter4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chapter4.cpp.i
+.PHONY : chapter4.cpp.i
+
+chapter4.s: chapter4.cpp.s
+
+.PHONY : chapter4.s
+
+# target to generate assembly for a file
+chapter4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chapter4.cpp.s
+.PHONY : chapter4.cpp.s
+
+chapter5.o: chapter5.cpp.o
+
+.PHONY : chapter5.o
+
+# target to build an object file
+chapter5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chapter5.cpp.o
+.PHONY : chapter5.cpp.o
+
+chapter5.i: chapter5.cpp.i
+
+.PHONY : chapter5.i
+
+# target to preprocess a source file
+chapter5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chapter5.cpp.i
+.PHONY : chapter5.cpp.i
+
+chapter5.s: chapter5.cpp.s
+
+.PHONY : chapter5.s
+
+# target to generate assembly for a file
+chapter5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.dir/build.make CMakeFiles/opencv.dir/chapter5.cpp.s
+.PHONY : chapter5.cpp.s
 
 # Help Target
 help:
@@ -179,9 +287,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... opencv"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... chapter1.o"
+	@echo "... chapter1.i"
+	@echo "... chapter1.s"
+	@echo "... chapter2.o"
+	@echo "... chapter2.i"
+	@echo "... chapter2.s"
+	@echo "... chapter3.o"
+	@echo "... chapter3.i"
+	@echo "... chapter3.s"
+	@echo "... chapter4.o"
+	@echo "... chapter4.i"
+	@echo "... chapter4.s"
+	@echo "... chapter5.o"
+	@echo "... chapter5.i"
+	@echo "... chapter5.s"
 .PHONY : help
 
 

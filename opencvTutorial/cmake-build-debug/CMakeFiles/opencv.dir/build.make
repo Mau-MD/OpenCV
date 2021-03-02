@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion
+CMAKE_SOURCE_DIR = /Users/maudieguez/Documents/Programming/opencv/opencvTutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/opencv.dir/depend.make
@@ -77,27 +77,87 @@ include CMakeFiles/opencv.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/opencv.dir/flags.make
 
-CMakeFiles/opencv.dir/main.cpp.o: CMakeFiles/opencv.dir/flags.make
-CMakeFiles/opencv.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/main.cpp.o -c /Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/main.cpp
+CMakeFiles/opencv.dir/chapter1.cpp.o: CMakeFiles/opencv.dir/flags.make
+CMakeFiles/opencv.dir/chapter1.cpp.o: ../chapter1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv.dir/chapter1.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/chapter1.cpp.o -c /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter1.cpp
 
-CMakeFiles/opencv.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/main.cpp > CMakeFiles/opencv.dir/main.cpp.i
+CMakeFiles/opencv.dir/chapter1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv.dir/chapter1.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter1.cpp > CMakeFiles/opencv.dir/chapter1.cpp.i
 
-CMakeFiles/opencv.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/main.cpp -o CMakeFiles/opencv.dir/main.cpp.s
+CMakeFiles/opencv.dir/chapter1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv.dir/chapter1.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter1.cpp -o CMakeFiles/opencv.dir/chapter1.cpp.s
+
+CMakeFiles/opencv.dir/chapter2.cpp.o: CMakeFiles/opencv.dir/flags.make
+CMakeFiles/opencv.dir/chapter2.cpp.o: ../chapter2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opencv.dir/chapter2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/chapter2.cpp.o -c /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter2.cpp
+
+CMakeFiles/opencv.dir/chapter2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv.dir/chapter2.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter2.cpp > CMakeFiles/opencv.dir/chapter2.cpp.i
+
+CMakeFiles/opencv.dir/chapter2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv.dir/chapter2.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter2.cpp -o CMakeFiles/opencv.dir/chapter2.cpp.s
+
+CMakeFiles/opencv.dir/chapter3.cpp.o: CMakeFiles/opencv.dir/flags.make
+CMakeFiles/opencv.dir/chapter3.cpp.o: ../chapter3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/opencv.dir/chapter3.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/chapter3.cpp.o -c /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter3.cpp
+
+CMakeFiles/opencv.dir/chapter3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv.dir/chapter3.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter3.cpp > CMakeFiles/opencv.dir/chapter3.cpp.i
+
+CMakeFiles/opencv.dir/chapter3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv.dir/chapter3.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter3.cpp -o CMakeFiles/opencv.dir/chapter3.cpp.s
+
+CMakeFiles/opencv.dir/chapter4.cpp.o: CMakeFiles/opencv.dir/flags.make
+CMakeFiles/opencv.dir/chapter4.cpp.o: ../chapter4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/opencv.dir/chapter4.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/chapter4.cpp.o -c /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter4.cpp
+
+CMakeFiles/opencv.dir/chapter4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv.dir/chapter4.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter4.cpp > CMakeFiles/opencv.dir/chapter4.cpp.i
+
+CMakeFiles/opencv.dir/chapter4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv.dir/chapter4.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter4.cpp -o CMakeFiles/opencv.dir/chapter4.cpp.s
+
+CMakeFiles/opencv.dir/chapter5.cpp.o: CMakeFiles/opencv.dir/flags.make
+CMakeFiles/opencv.dir/chapter5.cpp.o: ../chapter5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/opencv.dir/chapter5.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/chapter5.cpp.o -c /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter5.cpp
+
+CMakeFiles/opencv.dir/chapter5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv.dir/chapter5.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter5.cpp > CMakeFiles/opencv.dir/chapter5.cpp.i
+
+CMakeFiles/opencv.dir/chapter5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv.dir/chapter5.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter5.cpp -o CMakeFiles/opencv.dir/chapter5.cpp.s
 
 # Object files for target opencv
 opencv_OBJECTS = \
-"CMakeFiles/opencv.dir/main.cpp.o"
+"CMakeFiles/opencv.dir/chapter1.cpp.o" \
+"CMakeFiles/opencv.dir/chapter2.cpp.o" \
+"CMakeFiles/opencv.dir/chapter3.cpp.o" \
+"CMakeFiles/opencv.dir/chapter4.cpp.o" \
+"CMakeFiles/opencv.dir/chapter5.cpp.o"
 
 # External object files for target opencv
 opencv_EXTERNAL_OBJECTS =
 
-opencv: CMakeFiles/opencv.dir/main.cpp.o
+opencv: CMakeFiles/opencv.dir/chapter1.cpp.o
+opencv: CMakeFiles/opencv.dir/chapter2.cpp.o
+opencv: CMakeFiles/opencv.dir/chapter3.cpp.o
+opencv: CMakeFiles/opencv.dir/chapter4.cpp.o
+opencv: CMakeFiles/opencv.dir/chapter5.cpp.o
 opencv: CMakeFiles/opencv.dir/build.make
 opencv: /usr/local/lib/libopencv_gapi.4.5.1.dylib
 opencv: /usr/local/lib/libopencv_stitching.4.5.1.dylib
@@ -155,7 +215,7 @@ opencv: /usr/local/lib/libopencv_photo.4.5.1.dylib
 opencv: /usr/local/lib/libopencv_imgproc.4.5.1.dylib
 opencv: /usr/local/lib/libopencv_core.4.5.1.dylib
 opencv: CMakeFiles/opencv.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable opencv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable opencv"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +228,6 @@ CMakeFiles/opencv.dir/clean:
 .PHONY : CMakeFiles/opencv.dir/clean
 
 CMakeFiles/opencv.dir/depend:
-	cd /Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion /Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion /Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/cmake-build-debug /Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/cmake-build-debug /Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/cmake-build-debug/CMakeFiles/opencv.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maudieguez/Documents/Programming/opencv/opencvTutorial /Users/maudieguez/Documents/Programming/opencv/opencvTutorial /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug /Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles/opencv.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/opencv.dir/depend
 

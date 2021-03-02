@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/main.cpp" "/Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/cmake-build-debug/CMakeFiles/opencv.dir/main.cpp.o"
+  "/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter1.cpp" "/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles/opencv.dir/chapter1.cpp.o"
+  "/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter2.cpp" "/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles/opencv.dir/chapter2.cpp.o"
+  "/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter3.cpp" "/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles/opencv.dir/chapter3.cpp.o"
+  "/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter4.cpp" "/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles/opencv.dir/chapter4.cpp.o"
+  "/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/chapter5.cpp" "/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles/opencv.dir/chapter5.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

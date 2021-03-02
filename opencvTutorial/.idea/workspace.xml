@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="943ccb38-9d75-4371-96d9-496712923316" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="943ccb38-9d75-4371-96d9-496712923316" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +22,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1pBDBiqLg88hrXNaSHMqG2WQkDz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,14 +35,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="opencv" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opencv" TARGET_NAME="opencv" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opencv" RUN_TARGET_NAME="opencv">
+    <configuration name="opencv" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" WORKING_DIR="file://$FileDir$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="opencv" TARGET_NAME="opencv" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="opencv" RUN_TARGET_NAME="opencv">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -64,6 +64,9 @@
       <option name="presentableId" value="Default" />
       <updated>1614647458930</updated>
       <workItem from="1614647462767" duration="455000" />
+      <workItem from="1614649052574" duration="392000" />
+      <workItem from="1614649588299" duration="252000" />
+      <workItem from="1614649884810" duration="9066000" />
     </task>
     <servers />
   </component>
@@ -71,21 +74,47 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1318" height="173" key="GridCell.Tab.0.bottom" timestamp="1614647593443">
+    <state x="1424" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614652790607">
+      <screen x="1280" y="23" width="1360" height="708" />
+    </state>
+    <state x="1424" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/1280.23.1360.708/0.23.1280.777@1280.23.1360.708" timestamp="1614652790607" />
+    <state x="1747" y="89" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1614652788890">
+      <screen x="1280" y="23" width="1360" height="708" />
+    </state>
+    <state x="1747" y="89" key="#com.intellij.ide.macro.MacrosDialog/1280.23.1360.708/0.23.1280.777@1280.23.1360.708" timestamp="1614652788890" />
+    <state width="1318" height="171" key="GridCell.Tab.0.bottom" timestamp="1614659935210">
       <screen x="1280" y="23" width="1360" height="745" />
     </state>
-    <state width="1318" height="173" key="GridCell.Tab.0.bottom/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1614647593443" />
-    <state width="1318" height="173" key="GridCell.Tab.0.center" timestamp="1614647593441">
+    <state width="1318" height="160" key="GridCell.Tab.0.bottom/1280.23.1360.708/0.23.1280.777@1280.23.1360.708" timestamp="1614654283674" />
+    <state width="1318" height="160" key="GridCell.Tab.0.bottom/1280.23.1360.745/0.23.1280.740@1280.23.1360.745" timestamp="1614656776432" />
+    <state width="1318" height="171" key="GridCell.Tab.0.bottom/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1614659935210" />
+    <state width="1318" height="171" key="GridCell.Tab.0.center" timestamp="1614659935207">
       <screen x="1280" y="23" width="1360" height="745" />
     </state>
-    <state width="1318" height="173" key="GridCell.Tab.0.center/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1614647593441" />
-    <state width="1318" height="173" key="GridCell.Tab.0.left" timestamp="1614647593438">
+    <state width="1318" height="160" key="GridCell.Tab.0.center/1280.23.1360.708/0.23.1280.777@1280.23.1360.708" timestamp="1614654283672" />
+    <state width="1318" height="160" key="GridCell.Tab.0.center/1280.23.1360.745/0.23.1280.740@1280.23.1360.745" timestamp="1614656776431" />
+    <state width="1318" height="171" key="GridCell.Tab.0.center/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1614659935207" />
+    <state width="1318" height="171" key="GridCell.Tab.0.left" timestamp="1614659935205">
       <screen x="1280" y="23" width="1360" height="745" />
     </state>
-    <state width="1318" height="173" key="GridCell.Tab.0.left/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1614647593438" />
-    <state width="1318" height="173" key="GridCell.Tab.0.right" timestamp="1614647593442">
+    <state width="1318" height="160" key="GridCell.Tab.0.left/1280.23.1360.708/0.23.1280.777@1280.23.1360.708" timestamp="1614654283671" />
+    <state width="1318" height="160" key="GridCell.Tab.0.left/1280.23.1360.745/0.23.1280.740@1280.23.1360.745" timestamp="1614656776430" />
+    <state width="1318" height="171" key="GridCell.Tab.0.left/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1614659935205" />
+    <state width="1318" height="171" key="GridCell.Tab.0.right" timestamp="1614659935209">
       <screen x="1280" y="23" width="1360" height="745" />
     </state>
-    <state width="1318" height="173" key="GridCell.Tab.0.right/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1614647593442" />
+    <state width="1318" height="160" key="GridCell.Tab.0.right/1280.23.1360.708/0.23.1280.777@1280.23.1360.708" timestamp="1614654283673" />
+    <state width="1318" height="160" key="GridCell.Tab.0.right/1280.23.1360.745/0.23.1280.740@1280.23.1360.745" timestamp="1614656776431" />
+    <state width="1318" height="171" key="GridCell.Tab.0.right/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1614659935209" />
+    <state x="1469" y="23" width="982" height="708" key="SettingsEditor" timestamp="1614657538967">
+      <screen x="1280" y="23" width="1360" height="745" />
+    </state>
+    <state x="1469" y="23" width="982" height="708" key="SettingsEditor/1280.23.1360.708/0.23.1280.777@1280.23.1360.708" timestamp="1614652674794" />
+    <state x="1469" y="23" key="SettingsEditor/1280.23.1360.745/0.23.1280.740@1280.23.1360.745" timestamp="1614657538967" />
+    <state x="1469" y="23" key="SettingsEditor/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1614650053053" />
+    <state x="1625" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1614656249843">
+      <screen x="1280" y="23" width="1360" height="745" />
+    </state>
+    <state x="1625" y="92" width="670" height="676" key="search.everywhere.popup/1280.23.1360.745/0.23.1280.740@1280.23.1360.745" timestamp="1614656249843" />
   </component>
 </project>

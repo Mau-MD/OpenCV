@@ -1,3 +1,3 @@
-/Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/maudieguez/Documents/Programming/opencv/opencv-tutorial-clion/cmake-build-debug/CMakeFiles/opencv.dir
+/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maudieguez/Documents/Programming/opencv/opencvTutorial/cmake-build-debug/CMakeFiles/opencv.dir
